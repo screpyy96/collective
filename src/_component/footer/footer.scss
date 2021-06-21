@@ -1,0 +1,23 @@
+.footer {
+  background-color: black;
+
+  &__logo {
+    background-image: url(#{$baseUrl}asset/image/logo.png);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__title {
+    color: white;
+    background-color: #182629;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
