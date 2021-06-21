@@ -38,7 +38,9 @@ const createCardIcon = (id) => {
   const cardIcon = document.createElement("div");
   cardIcon.id = id;
   cardIcon.classList.add(
-    `card__icon--${favouriteData.includes(id) ? "thick" : "thin"}`
+    `card__icon--${
+      favouriteData !== null && favouriteData.includes(id) ? "thick" : "thin"
+    }`
   );
   return cardIcon;
 };
