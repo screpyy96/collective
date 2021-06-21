@@ -1,0 +1,27 @@
+.hero {
+  background-image: url(#{$baseUrl}asset/image/hero.jpeg);
+  // 852 / 1400 = 0.6085714285714286
+  height: 852px;
+  position: relative;
+  padding-top: 220px;
+  background-size: cover;
+  background-position: center bottom;
+
+  &__content {
+    padding-right: 52.7%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    color: white;
+    font-size: 48px;
+    padding: 1rem 0;
+  }
+
+  &__description {
+    color: white;
+    font-size: 15px;
+    line-height: 2;
+  }
+}
