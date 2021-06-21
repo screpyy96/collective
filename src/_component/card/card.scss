@@ -1,0 +1,31 @@
+.card {
+  grid-column: span 4;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+
+  &__name {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  &__description {
+    padding-bottom: 30px;
+    font-size: 13px;
+    flex-grow: 1;
+    line-height: 2;
+  }
+
+  &__wrapper {
+    padding: 25px;
+    background-color: #2897b1;
+  }
+
+  &__image {
+    // 200 / 446 = 0.4484304932735426
+    padding-top: 44.84%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+  }
+}
