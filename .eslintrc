@@ -31,7 +31,7 @@
     "no-ternary": 0,
     "new-cap": 0,
     "no-unused-vars": [1, {"vars": "local", "args": "none"}],
-    "quotes": [2, "single"],
+    "quotes": [2, "double"],
     "one-var": 0,
     "space-infix-ops": 0,
     "strict": 0,

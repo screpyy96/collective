@@ -2,7 +2,7 @@
   grid-column: span 4;
   display: flex;
   flex-direction: column;
-
+  margin-top: 83px;
   &__name {
     font-size: 18px;
     padding-bottom: 10px;
@@ -19,6 +19,7 @@
     padding: 25px;
     background-color: #2897b1;
     position: relative;
+    margin-top: 90px;
   }
 
   &__image {
@@ -32,8 +33,8 @@
   &__icon--thick,
   &__icon--thin {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 27px;
+    right: 18px;
     background-repeat: no-repeat;
     height: 32px;
     width: 32px;

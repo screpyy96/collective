@@ -1,13 +1,16 @@
 * {
   box-sizing: border-box;
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap");
+
 html,
 body {
   margin: 0;
   height: 100%;
   font-family: "Open Sans", sans-serif;
 }
+
 .grid {
   display: grid;
   grid-gap: 30px;
@@ -18,11 +21,34 @@ body {
 .row {
   grid-column: 1/-1;
 }
+
+@media screen and(min-width: 375px) {
+  .beer {
+    padding: 0 20px;
+  }
+  .hero {
+    padding: 0 20px;
+  }
+  .menu {
+    padding: 0 20px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .grid {
     grid-template-columns: repeat(8, 1fr);
   }
+  .beer {
+    padding: 0 30px;
+  }
+  .hero {
+    padding: 0 30px;
+  }
+  .menu {
+    padding: 0 30px;
+  }
 }
+
 @media screen and (min-width: 1400px) {
   .grid {
     grid-template-columns: repeat(12, 1fr);

@@ -1,5 +1,11 @@
 extends _component/layout/layout
 
+block head
+  -
+    var pageTitle = "Home Page"
+    var pageDescription = "View our range of beers"
 block content 
 
-  .beer.grid 
+  .beer.grid
+  .button
+    button.button__load-more Load More
