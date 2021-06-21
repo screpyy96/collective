@@ -1,11 +1,12 @@
 doctype html
 html(lang="en")
+  block head 
   head
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    title Beer Site
-    meta(name="description", content="pure html, css and javascript website about beers")
+    title= pageTitle
+    meta(name="description", content= pageDescription)
   body 
     include ../hero/hero
     block content
