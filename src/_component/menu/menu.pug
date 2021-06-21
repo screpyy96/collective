@@ -1,0 +1,5 @@
+.menu__wrapper 
+  nav.menu 
+    .menu__logo
+    each link in data.menu 
+      a(href=`${baseUrl}${link.path}` title=link.title).menu__link= link.label

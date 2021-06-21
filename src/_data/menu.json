@@ -1,0 +1,17 @@
+[
+  {
+    "path": "",
+    "title": "Go to home page",
+    "label": "home"
+  },
+  {
+    "path": "beers",
+    "title": "enjoy our broad range of beers",
+    "label": "beers"
+  },
+  {
+    "path": "contact",
+    "title": "let's have a chat",
+    "label": "contact"
+  }
+]

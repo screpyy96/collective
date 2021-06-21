@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Beer Site
+    meta(name="description", content="pure html, css and javascript website about beers")
+  body 
+  body 
+    include ../menu/menu
+    block content
+
+    link(rel="stylesheet", href=`${baseUrl}style.css`)
+    script(src=`${baseUrl}bundle.js`)
